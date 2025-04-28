@@ -49,4 +49,11 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 As a Devops Engineer :
 
   - dotnet publish -c o /path/to/publish    // hmm .net core ke app ko publish ker daytha ha publish ka folder bn jathaa
-  - dotnet app.dll                          // pher uss publish ma ja ker dotnet app.dll file chellah dathy ha 
+  - dotnet app.dll                          // pher uss publish ma ja ker dotnet app.dll file chellah dathy ha
+
+    Important Note:
+dotnet run source code se run karta hai.
+
+dotnet AppName.dll published, ready-to-run files se run karta hai.
+
+DevOps Engineer kabhi bhi source se run nahi karta production mein, wo hamesha publish karke optimized files use karta hai.
