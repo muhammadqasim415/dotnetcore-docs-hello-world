@@ -39,10 +39,14 @@ docker push <your_registry_name>.azurecr.io/dotnetcore-docs-hello-world-linux:la
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
             -------------------------------------------------------------------------------------
   How to run and deploy .net core application on machine 
+  
   Developer Machine:
+  
   - dotnet restore  //ess sa .csproj file ma jo depencies ha wo restore ho jathi ha 
   - dotnet build    // Ess sa .net core app ka code compile ho jatha ha yani compile ker ka chack ho jatha ha
-  - dotnet run      // Ess sa .net core app run ho jathi ha 
+  - dotnet run      // Ess sa .net core app run ho jathi ha
+  - 
 As a Devops Engineer :
+
   - dotnet publish -c o /path/to/publish    // hmm .net core ke app ko publish ker daytha ha publish ka folder bn jathaa
   - dotnet app.dll                          // pher uss publish ma ja ker dotnet app.dll file chellah dathy ha 
